@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PoseExercise" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorSecondary">@color/accentPink</item>
+        <item name="colorTertiary">@color/accentTeal</item>
+        <item name="android:colorBackground">@color/backgroundFill</item>
+        <item name="colorSurface">@color/surfaceWarm</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:statusBarColor">@color/primaryDark</item>
+        <item name="android:navigationBarColor">@color/surfaceWarm</item>
+        <item name="android:windowBackground">@color/backgroundFill</item>
+    </style>
+
+    <style name="Theme.PoseExercise" parent="Base.Theme.PoseExercise" />
+
+    <style name="Widget.MoovFit.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primaryColor</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.MoovFit.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surfaceWarm</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="strokeColor">@color/outlineSoft</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="TextAppearance.MoovFit.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/ink</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
