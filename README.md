@@ -3,7 +3,7 @@
 **MoovFit** is an Android fitness application that uses on-device pose detection to track exercises via camera in real time. It counts repetitions automatically using a K-NN classifier, identifies 10+ exercises (squats, push-ups, yoga poses, etc.), and provides real-time posture correction feedback. A Python FastAPI backend is available for server-side analytics and ML model training.
 
 <p align="center">
-  <img src="app/src/main/ic_launcher-playstore.png" alt="MoovFit Logo" width="120"/>
+  <img src="app/src/main/res/drawable/logo.svg" alt="MoovFit Logo" width="120"/>
 </p>
 
 ---
