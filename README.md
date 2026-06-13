@@ -8,6 +8,32 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/screen1.png" width="180"/>
+  <img src="screenshots/screen2.png" width="180"/>
+  <img src="screenshots/screen3.png" width="180"/>
+  <img src="screenshots/screen4.png" width="180"/>
+  <img src="screenshots/screen5.png" width="180"/>
+  <img src="screenshots/screen6.png" width="180"/>
+</p>
+<p align="center">
+  <img src="screenshots/screen7.png" width="180"/>
+  <img src="screenshots/screen8.png" width="180"/>
+  <img src="screenshots/screen9.png" width="180"/>
+  <img src="screenshots/screen10.png" width="180"/>
+  <img src="screenshots/screen11.png" width="180"/>
+  <img src="screenshots/screen12.png" width="180"/>
+</p>
+<p align="center">
+  <img src="screenshots/screen13.png" width="180"/>
+  <img src="screenshots/screen14.png" width="180"/>
+  <img src="screenshots/screen15.png" width="180"/>
+</p>
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
@@ -355,8 +381,6 @@ The project includes a GitHub Actions workflow (`.github/workflows/AndroidBuild.
 | GET | `/api/analytics/exercises/{name}` | Per-exercise analytics |
 | GET | `/api/analytics/streak` | User streak data |
 | GET | `/health` | Health check |
-
----
 
 ## License
 
