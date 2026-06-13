@@ -54,8 +54,8 @@ jobs:
           uses: reactivecircus/android-emulator-runner@v2
           with:
             api-level: 29
-            target: default
-            arch: x86_64
+            target: google_apis  # Recommandé pour l'architecture ARM
+            arch: arm64-v8a      # <-- On passe en ARM64 pour correspondre au processeur du Mac
             profile: Nexus 6
             script: ./gradlew connectedCheck --stacktrace
 
